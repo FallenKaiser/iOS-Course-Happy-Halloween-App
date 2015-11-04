@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBA171301BE9A096007788F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1712F1BE9A096007788F1 /* AppDelegate.swift */; };
+		DBA171321BE9A096007788F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA171311BE9A096007788F1 /* ViewController.swift */; };
+		DBA171351BE9A096007788F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA171331BE9A096007788F1 /* Main.storyboard */; };
+		DBA171371BE9A096007788F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA171361BE9A096007788F1 /* Assets.xcassets */; };
+		DBA1713A1BE9A096007788F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA171381BE9A096007788F1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBA1712C1BE9A096007788F1 /* Happy Halloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Halloween.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA1712F1BE9A096007788F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA171311BE9A096007788F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA171341BE9A096007788F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA171361BE9A096007788F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA171391BE9A096007788F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA1713B1BE9A096007788F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA171291BE9A096007788F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBA171231BE9A096007788F1 = {
+			isa = PBXGroup;
+			children = (
+				DBA1712E1BE9A096007788F1 /* Happy Halloween */,
+				DBA1712D1BE9A096007788F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA1712D1BE9A096007788F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA1712C1BE9A096007788F1 /* Happy Halloween.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA1712E1BE9A096007788F1 /* Happy Halloween */ = {
+			isa = PBXGroup;
+			children = (
+				DBA1712F1BE9A096007788F1 /* AppDelegate.swift */,
+				DBA171311BE9A096007788F1 /* ViewController.swift */,
+				DBA171331BE9A096007788F1 /* Main.storyboard */,
+				DBA171361BE9A096007788F1 /* Assets.xcassets */,
+				DBA171381BE9A096007788F1 /* LaunchScreen.storyboard */,
+				DBA1713B1BE9A096007788F1 /* Info.plist */,
+			);
+			path = "Happy Halloween";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA1712B1BE9A096007788F1 /* Happy Halloween */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA1713E1BE9A096007788F1 /* Build configuration list for PBXNativeTarget "Happy Halloween" */;
+			buildPhases = (
+				DBA171281BE9A096007788F1 /* Sources */,
+				DBA171291BE9A096007788F1 /* Frameworks */,
+				DBA1712A1BE9A096007788F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Halloween";
+			productName = "Happy Halloween";
+			productReference = DBA1712C1BE9A096007788F1 /* Happy Halloween.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA171241BE9A096007788F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cesar Medina";
+				TargetAttributes = {
+					DBA1712B1BE9A096007788F1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DBA171271BE9A096007788F1 /* Build configuration list for PBXProject "Happy Halloween" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA171231BE9A096007788F1;
+			productRefGroup = DBA1712D1BE9A096007788F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA1712B1BE9A096007788F1 /* Happy Halloween */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA1712A1BE9A096007788F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA1713A1BE9A096007788F1 /* LaunchScreen.storyboard in Resources */,
+				DBA171371BE9A096007788F1 /* Assets.xcassets in Resources */,
+				DBA171351BE9A096007788F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA171281BE9A096007788F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA171321BE9A096007788F1 /* ViewController.swift in Sources */,
+				DBA171301BE9A096007788F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBA171331BE9A096007788F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA171341BE9A096007788F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA171381BE9A096007788F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA171391BE9A096007788F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA1713C1BE9A096007788F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBA1713D1BE9A096007788F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA1713F1BE9A096007788F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Halloween/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesarmedina.Happy-Halloween";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBA171401BE9A096007788F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Halloween/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesarmedina.Happy-Halloween";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA171271BE9A096007788F1 /* Build configuration list for PBXProject "Happy Halloween" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA1713C1BE9A096007788F1 /* Debug */,
+				DBA1713D1BE9A096007788F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA1713E1BE9A096007788F1 /* Build configuration list for PBXNativeTarget "Happy Halloween" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA1713F1BE9A096007788F1 /* Debug */,
+				DBA171401BE9A096007788F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBA171241BE9A096007788F1 /* Project object */;
+}
